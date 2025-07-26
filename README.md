@@ -24,29 +24,31 @@ This project combines three components to enable AI-powered email replies:
               
 
 🛠️ **Key Responsibilities:**
-              Expose a REST API endpoint:
-              POST /api/generate
 
-              Accept JSON input:
+- Expose a REST API endpoint:  
+  `POST /api/generate`
 
-{
-  "email": "Original email content here...",
-  "tone": "professional"
-}
-Call Gemini API with prompt + tone instructions
+- Accept JSON input:  
+  ```json
+  {
+    "email": "Original email content here...",
+    "tone": "professional"
+  }
 
-Return the AI-generated response as JSON
+- Call Gemini API with prompt + tone instructions
 
-🔐 **Gemini API Setup:**
+- Return the AI-generated response as JSON
+
+🔐**🔐 Gemini API Setup:**
+
 You need a Google API key for Gemini:
 
-Go to Google AI Studio
+- Go to [Google AI Studio](https://makersuite.google.com/app)
+- Sign in with your Google account  
+- Click **"Create API Key"**  
+- Copy the key  
+- Paste it in your backend `.env` or `application.properties`
 
-Sign in with your Google account
-
-Click "Create API Key"
-
-Paste it in your backend .env or application.properties
 
 ### 💻 2. React Frontend
 ✅ Purpose:
