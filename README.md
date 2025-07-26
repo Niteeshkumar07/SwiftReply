@@ -142,39 +142,48 @@ Here is a preview of the AI-generated email reply using the extension:
 
 ![AI Reply Preview](./assets/Screenshot%202025-07-26%20142836.png)
 
-🎯 How to Run the Project
-🧪 Testing It Locally
-Start Spring Boot backend
+## 🎯 **How to Run the Project**  
+🧪 *Test it Locally with Backend, Frontend, and Chrome Extension*
 
-bash
-Copy
-Edit
+---
+
+### 🔧 **1. Start Spring Boot Backend**
+
+```bash
 cd backend
 ./mvnw spring-boot:run
-Start React frontend
 
-bash
-Copy
-Edit
+### 💻 Start React Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
-Load Chrome Extension
 
-Go to chrome://extensions
+### 🧩 Load Chrome Extension
 
-Enable "Developer Mode"
+1. Open **Chrome** and go to  
+   `chrome://extensions`
 
-Click "Load unpacked"
+2. Enable **Developer Mode** (top-right toggle)
 
-Select your /extension folder
+3. Click **"Load unpacked"**
 
-Open Gmail in Chrome
+4. Select your `/extension` folder
 
-Click on an email
+---
 
-Click "Generate Reply" button added by extension
+### 📬 Test in Gmail
 
-AI reply appears in the Gmail reply box 🎉
+1. Open **Gmail** in Chrome  
+2. Click on any **email**
+
+3. You’ll see a new **“Generate Reply”** button added by the extension
+
+4. Click the button  
+   → Sends the request to your backend  
+   → Gemini API generates a smart reply  
+   → ✨ The reply is auto-inserted into Gmail’s reply box
+
 
 
