@@ -129,13 +129,14 @@ Here is a preview of the AI-generated email reply using the extension:
 ### 🎯 How to Run the Project
 
 ## 🚀 Start Spring Boot Backend
-   - Open a terminal
 
-   - Navigate to the backend directory:
-    `cd backend`
-
-   -Start the backend:
-    `./mvnw spring-boot:run`
+- Open a terminal  
+- Navigate to the backend directory:  
+  ```bash
+  cd backend
+- Start the backend:
+  ```bash
+  `./mvnw spring-boot:run`
 
 ## 💻 Start React Frontend
 
