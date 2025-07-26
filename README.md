@@ -1,6 +1,6 @@
 ﻿# SwiftReply
 
-## Project Overview
+## 🔥 Project Overview
 A full-stack project that generates intelligent email replies using Google's Gemini API. This includes:
 
 - 🚀 **Spring Boot backend** for API handling  
@@ -16,21 +16,18 @@ This project combines three components to enable AI-powered email replies:
 
 # 🧱 1. Spring Boot Backend
 ✅ **Purpose:**
-Accepts the original email content and optional tone (like professional, casual, etc.)
+              Accepts the original email content and optional tone (like professional, casual, etc.)
 
-Sends this to Google Gemini API (via HTTP POST)
+              Sends this to Google Gemini API (via HTTP POST)
 
-Returns a generated reply back to the client
+              Returns a generated reply back to the client
 
 🛠️ **Key Responsibilities:**
-Expose a REST API endpoint:
-POST /api/generate
+              Expose a REST API endpoint:
+              POST /api/generate
 
-Accept JSON input:
+              Accept JSON input:
 
-json
-Copy
-Edit
 {
   "email": "Original email content here...",
   "tone": "professional"
