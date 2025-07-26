@@ -129,13 +129,13 @@ Automatically adds a "Generate Reply" button inside Gmail UI
 
 
 
-## 📷 Preview
+# 📷 Preview
 
 Here is a preview of the AI-generated email reply using the extension:
 
 ![AI Reply Preview](./assets/Screenshot%202025-07-26%20142836.png)
 
-### 🎯 How to Run the Project
+# 🎯 How to Run the Project
 
 ## 🚀 Start Spring Boot Backend
 
