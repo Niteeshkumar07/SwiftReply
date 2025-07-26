@@ -16,11 +16,11 @@ This project combines three components to enable AI-powered email replies:
 
 ### 🧱 1. Spring Boot Backend
 ✅ **Purpose:**
-             &nbsp;Accepts the original email content and optional tone (like professional, casual, etc.)
-             
- &nbsp;      &nbsp;&nbsp;Sends this to Google Gemini API (via HTTP POST)
-             
-&nbsp;       &nbsp;Returns a generated reply back to the client
+
+- Accepts the original email content and optional tone (like professional, casual, etc.)
+- Sends this to Google Gemini API (via HTTP POST)
+- Returns a generated reply back to the client
+
               
 
 🛠️ **Key Responsibilities:**
