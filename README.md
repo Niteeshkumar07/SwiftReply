@@ -8,9 +8,8 @@ A full-stack project that generates intelligent email replies using Google's Gem
 - 🧩 **Chrome Extension** that integrates with Gmail to auto-generate replies
 
 # 🗂️ Project Structure
-**email-assistant/**
 ```bash
-**email-assistant/**
+  email-assistant/
                  ├── backend/ # Spring Boot backend
                  ├── frontend/ # React.js frontend (with Tailwind or MUI)
                  ├── extension/ # Chrome Extension (Gmail integration) </pre>
