@@ -183,6 +183,10 @@ Here is a preview of the AI-generated email reply using the extension:
 
 # 📷 Frontend Preview
 
+Here is a preview of the AI-generated email reply in frontend:
+
+![AI Reply Preview](./assets/Screenshot%202025-07-26%20225353.png.png)
+
 
 
 
