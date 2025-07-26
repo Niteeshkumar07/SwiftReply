@@ -140,42 +140,38 @@ Here is a preview of the AI-generated email reply using the extension:
 
 ## 💻 Start React Frontend
 
-    Open another terminal
-
-    Navigate to the frontend directory:
+- Open another terminal
+- Navigate to the frontend directory:
+  ```bash
     cd frontend
-
-    Install dependencies:
+- Install dependencies:
+  ```bash
     npm install
-
-    Start the React app:
+- Start the React app:
+  ```bash
     npm run dev
 
 ## 🧩 Load Chrome Extension
-
-    Open Chrome and go to chrome://extensions
-
-    Enable Developer Mode (toggle at the top right)
-
-    Click "Load unpacked"
-
-    Select the /extension folder from your project
+- Open Chrome and go to chrome://extensions
+- Enable Developer Mode (toggle at the top right)
+- Click "Load unpacked"
+- Select the /extension folder from your project
 
 ## 📬 Test in Gmail
 
-    -> Open Gmail in Chrome
-
-    -> Click on any email
-
-    -> A new “Generate Reply” button will appear in the reply box
-
-    -> Click the button:
-
-    -> A request is sent to the backend
-
-    -> Gemini API generates a reply
-
-    -> ✨ The reply is inserted automatically into the Gmail reply box
+-> Open Gmail in Chrome
+                    
+                        -> Click on any email
+                    
+                        -> A new “Generate Reply” button will appear in the reply box
+                    
+                        -> Click the button:
+                    
+                        -> A request is sent to the backend
+                    
+                        -> Gemini API generates a reply
+                    
+                        -> ✨ The reply is inserted automatically into the Gmail reply box
 
 
 
