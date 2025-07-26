@@ -39,7 +39,7 @@ This project combines three components to enable AI-powered email replies:
 
 - Return the AI-generated response as JSON
 
-🔐**🔐 Gemini API Setup:**
+🔐** Gemini API Setup:**
 
 You need a Google API key for Gemini:
 
@@ -50,64 +50,51 @@ You need a Google API key for Gemini:
 - Paste it in your backend `.env` or `application.properties`
 
 
-### 💻 2. React Frontend
-✅ Purpose:
-Allows users to paste original email, select tone, and click Generate Reply
+### 🎨 2. React Frontend
 
-Sends user input to the backend via axios or fetch
+**✅ Purpose:**  
+Allows users to paste original email, select tone, and click **Generate Reply**
 
-Displays a loading spinner while the backend responds
+- Sends user input to the backend via `axios` or `fetch`
+- Displays a loading spinner while the backend responds
+- Shows the AI reply in a styled output box
 
-Shows the AI reply in a styled output box
+**🛠️ Main Features:**
 
-🛠️ **Main Features:**
-Input field for original email (multiline)
+- Input field for original email (multiline)
+- Dropdown for tone: _None_, _Friendly_, _Professional_, _Casual_
+- "Generate Reply" button
+- Dark mode support (optional)
+- Displays loader (`<CircularProgress />`) during backend call
+- Shows generated email reply in styled `Typography` box
 
-Dropdown for tone: None, Friendly, Professional, Casual
 
-"Generate Reply" button
+###🧩 3. Chrome Extension (Gmail)
 
-Dark mode support (optional)
-
-Displays loader (<CircularProgress />) during backend call
-
-Shows generated email reply in styled Typography box
-
-### 🧩 3. Chrome Extension (Gmail)
-✅ **Purpose:**
+**✅ Purpose:**  
 Automatically adds a "Generate Reply" button inside Gmail UI
 
-When clicked:
+- When clicked:
+  - Grabs currently opened email body
+  - Sends it to the backend
+  - Inserts generated reply in Gmail's reply box
 
-Grabs currently opened email body
+**🛠️ How It Works:**
 
-Sends it to the backend
+- Content script injects into Gmail tab
+- Watches for open email threads
+- Adds a button below each email
+- On button click:
+  - Collects email text
+  - Sends it to backend using `fetch()`
+  - Gets AI reply
+  - Auto-fills reply textbox in Gmail with the AI reply
 
-Inserts generated reply in Gmail's reply box
+**🔐 Setup:**
 
-🛠️ **How It Works:**
-Content script injects into Gmail tab
+- Create a `manifest.json` with Gmail permissions
+- Use `content_script.js` to modify Gmail DOM
 
-Watches for open email threads
-
-Adds a button below each email
-
-On button click:
-
-Collects email text
-
-Sends it to backend using fetch()
-
-Gets AI reply
-
-Auto-fills reply textbox in Gmail with the AI reply
-
-🔐 **Setup:**
-Create a manifest.json with Gmail permissions
-
-Use content_script.js to modify Gmail DOM
-
-Host backend locally or on cloud (Render, Railway, Vercel)
 
 #🌐 Data Flow Overview
 
