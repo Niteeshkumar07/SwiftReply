@@ -12,7 +12,7 @@ A full-stack project that generates intelligent email replies using Google's Gem
 ├── frontend/ # React.js frontend (with Tailwind or MUI)
 ├── extension/ # Chrome Extension (for Gmail)
 
-📌**How It Works:**
+📌# How it works
 This project combines three components to enable AI-powered email replies:
 
 🧱 1. Spring Boot Backend
@@ -141,3 +141,5 @@ Edit
 Here is a preview of the AI-generated email reply using the extension:
 
 ![AI Reply Preview](./assets/Screenshot%202025-07-26%20142836.png)
+
+🎯 How to Run the Project
