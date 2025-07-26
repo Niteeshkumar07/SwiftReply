@@ -1,6 +1,7 @@
 ﻿# SwiftReply
 
 # 🔥 Project Overview
+
 A full-stack project that generates intelligent email replies using Google's Gemini API. This includes:
 
 - 🚀 **Spring Boot backend** for API handling  
@@ -19,6 +20,7 @@ A full-stack project that generates intelligent email replies using Google's Gem
 This project combines three components to enable AI-powered email replies:
 
 ### 🧱 1. Spring Boot Backend
+
 ✅ **Purpose:**
 
 - Accepts the original email content and optional tone (like professional, casual, etc.)
@@ -78,6 +80,7 @@ Allows users to paste original email, select tone, and click **Generate Reply**
 ### 🧩 3. Chrome Extension (Gmail)
 
 **✅ Purpose:**  
+
 Automatically adds a "Generate Reply" button inside Gmail UI
 
 - When clicked:
@@ -161,6 +164,7 @@ Here is a preview of the AI-generated email reply using the extension:
     npm run dev
 
 ## 🧩 Load Chrome Extension
+
 - Open Chrome and go to chrome://extensions
 - Enable Developer Mode (toggle at the top right)
 - Click "Load unpacked"
@@ -170,18 +174,16 @@ Here is a preview of the AI-generated email reply using the extension:
 ## 📬 Test in Gmail
 
 - Open Gmail in Chrome
-                    
 - Click on any email
-                    
 - A new “Generate Reply” button will appear in the reply box
-                    
 - Click the button:
-                    
 - A request is sent to the backend
-                    
 - Gemini API generates a reply
-                    
 - ✨ The reply is inserted automatically into the Gmail reply box
+
+# 📷 Frontend Preview
+
+
 
 
 
