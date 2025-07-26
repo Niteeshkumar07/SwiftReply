@@ -1,6 +1,6 @@
 ﻿# SwiftReply
 
-### Project Overview
+## Project Overview
 A full-stack project that generates intelligent email replies using Google's Gemini API. This includes:
 
 - 🚀 **Spring Boot backend** for API handling  
@@ -13,11 +13,11 @@ A full-stack project that generates intelligent email replies using Google's Gem
 ├── frontend/ # React.js frontend (with Tailwind or MUI)
 ├── extension/ # Chrome Extension (for Gmail)
 
-### 📌# How it works
+## 📌# How it works
 This project combines three components to enable AI-powered email replies:
 
 # 🧱 1. Spring Boot Backend
-✅ Purpose:
+✅ **Purpose:**
 Accepts the original email content and optional tone (like professional, casual, etc.)
 
 Sends this to Google Gemini API (via HTTP POST)
@@ -52,7 +52,7 @@ Click "Create API Key"
 
 Paste it in your backend .env or application.properties
 
-💻 2. React Frontend
+💻 **2. React Frontend**
 ✅ Purpose:
 Allows users to paste original email, select tone, and click Generate Reply
 
@@ -62,7 +62,7 @@ Displays a loading spinner while the backend responds
 
 Shows the AI reply in a styled output box
 
-🛠️ **Main Features:**
+### 🛠️ **Main Features:**
 Input field for original email (multiline)
 
 Dropdown for tone: None, Friendly, Professional, Casual
@@ -75,8 +75,8 @@ Displays loader (<CircularProgress />) during backend call
 
 Shows generated email reply in styled Typography box
 
-🧩 3. Chrome Extension (Gmail)
-✅ Purpose:
+### 🧩 3. Chrome Extension (Gmail)**
+✅ **Purpose:**
 Automatically adds a "Generate Reply" button inside Gmail UI
 
 When clicked:
@@ -87,7 +87,7 @@ Sends it to the backend
 
 Inserts generated reply in Gmail's reply box
 
-🛠️ How It Works:
+🛠️ **How It Works:**
 Content script injects into Gmail tab
 
 Watches for open email threads
@@ -104,7 +104,7 @@ Gets AI reply
 
 Auto-fills reply textbox in Gmail with the AI reply
 
-🔐 Setup:
+🔐 **Setup:**
 Create a manifest.json with Gmail permissions
 
 Use content_script.js to modify Gmail DOM
