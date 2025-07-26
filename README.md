@@ -9,9 +9,11 @@ A full-stack project that generates intelligent email replies using Google's Gem
 
 # 🗂️ Project Structure
 **email-assistant/**
+```bash
 <pre> **email-assistant/** ├── backend/ # Spring Boot backend ├── frontend/ # React.js frontend (with Tailwind or MUI) ├── extension/ # Chrome Extension (Gmail integration) </pre>
+```
 
-# 📌# How it works
+# 📌 How it works
 This project combines three components to enable AI-powered email replies:
 
 ### 🧱 1. Spring Boot Backend
@@ -38,6 +40,7 @@ This project combines three components to enable AI-powered email replies:
 - Call Gemini API with prompt + tone instructions
 
 - Return the AI-generated response as JSON
+  
 
 🔐 **Gemini API Setup:**
 
@@ -58,6 +61,7 @@ Allows users to paste original email, select tone, and click **Generate Reply**
 - Sends user input to the backend via `axios` or `fetch`
 - Displays a loading spinner while the backend responds
 - Shows the AI reply in a styled output box
+  
 
 **🛠️ Main Features:**
 
@@ -78,6 +82,7 @@ Automatically adds a "Generate Reply" button inside Gmail UI
   - Grabs currently opened email body
   - Sends it to the backend
   - Inserts generated reply in Gmail's reply box
+    
 
 **🛠️ How It Works:**
 
@@ -89,11 +94,13 @@ Automatically adds a "Generate Reply" button inside Gmail UI
   - Sends it to backend using `fetch()`
   - Gets AI reply
   - Auto-fills reply textbox in Gmail with the AI reply
+    
 
 **🔐 Setup:**
 
 - Create a `manifest.json` with Gmail permissions
 - Use `content_script.js` to modify Gmail DOM
+  
 
 
 # 🌐 Data Flow Overview
@@ -156,6 +163,7 @@ Here is a preview of the AI-generated email reply using the extension:
 - Enable Developer Mode (toggle at the top right)
 - Click "Load unpacked"
 - Select the /extension folder from your project
+  
 
 ## 📬 Test in Gmail
 
