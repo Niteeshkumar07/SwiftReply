@@ -1,26 +1,27 @@
 ﻿# SwiftReply
 
-## 🔥 Project Overview
+# 🔥 Project Overview
 A full-stack project that generates intelligent email replies using Google's Gemini API. This includes:
 
 - 🚀 **Spring Boot backend** for API handling  
 - 🎨 **React frontend** with dark mode and responsive UI  
 - 🧩 **Chrome Extension** that integrates with Gmail to auto-generate replies
 
-## 🗂️ Project Structure
+# 🗂️ Project Structure
 **email-assistant/**
 <pre> **email-assistant/** ├── backend/ # Spring Boot backend ├── frontend/ # React.js frontend (with Tailwind or MUI) ├── extension/ # Chrome Extension (Gmail integration) </pre>
 
-## 📌# How it works
+# 📌# How it works
 This project combines three components to enable AI-powered email replies:
 
-# 🧱 1. Spring Boot Backend
+### 🧱 1. Spring Boot Backend
 ✅ **Purpose:**
-              Accepts the original email content and optional tone (like professional, casual, etc.)
+            <pre>  Accepts the original email content and optional tone (like professional, casual, etc.)
 
               Sends this to Google Gemini API (via HTTP POST)
 
               Returns a generated reply back to the client
+              </pre>
 
 🛠️ **Key Responsibilities:**
               Expose a REST API endpoint:
@@ -47,7 +48,7 @@ Click "Create API Key"
 
 Paste it in your backend .env or application.properties
 
-💻 **2. React Frontend**
+### 💻 2. React Frontend
 ✅ Purpose:
 Allows users to paste original email, select tone, and click Generate Reply
 
@@ -57,7 +58,7 @@ Displays a loading spinner while the backend responds
 
 Shows the AI reply in a styled output box
 
-### 🛠️ **Main Features:**
+🛠️ **Main Features:**
 Input field for original email (multiline)
 
 Dropdown for tone: None, Friendly, Professional, Casual
@@ -70,7 +71,7 @@ Displays loader (<CircularProgress />) during backend call
 
 Shows generated email reply in styled Typography box
 
-### 🧩 3. Chrome Extension (Gmail)**
+### 🧩 3. Chrome Extension (Gmail)
 ✅ **Purpose:**
 Automatically adds a "Generate Reply" button inside Gmail UI
 
@@ -106,10 +107,8 @@ Use content_script.js to modify Gmail DOM
 
 Host backend locally or on cloud (Render, Railway, Vercel)
 
-🌐 Data Flow Overview
-vbnet
-Copy
-Edit
+#🌐 Data Flow Overview
+
 <p align="center">
 <pre>
                                        User (Gmail / Web UI)
