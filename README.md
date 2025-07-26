@@ -39,7 +39,7 @@ This project combines three components to enable AI-powered email replies:
 
 - Return the AI-generated response as JSON
 
-🔐** Gemini API Setup:**
+🔐 **Gemini API Setup:**
 
 You need a Google API key for Gemini:
 
@@ -69,7 +69,7 @@ Allows users to paste original email, select tone, and click **Generate Reply**
 - Shows generated email reply in styled `Typography` box
 
 
-###🧩 3. Chrome Extension (Gmail)
+### 🧩 3. Chrome Extension (Gmail)
 
 **✅ Purpose:**  
 Automatically adds a "Generate Reply" button inside Gmail UI
@@ -96,7 +96,7 @@ Automatically adds a "Generate Reply" button inside Gmail UI
 - Use `content_script.js` to modify Gmail DOM
 
 
-#🌐 Data Flow Overview
+# 🌐 Data Flow Overview
 
 
 <pre>
@@ -129,13 +129,13 @@ Here is a preview of the AI-generated email reply using the extension:
 ### 🎯 How to Run the Project
 
 ## 🚀 Start Spring Boot Backend
-    Open a terminal
+   - Open a terminal
 
-    Navigate to the backend directory:
-    cd backend
+   - Navigate to the backend directory:
+    `cd backend`
 
-    Start the backend:
-    ./mvnw spring-boot:run
+   -Start the backend:
+    `./mvnw spring-boot:run`
 
 ## 💻 Start React Frontend
 
