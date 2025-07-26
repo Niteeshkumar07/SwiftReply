@@ -143,3 +143,38 @@ Here is a preview of the AI-generated email reply using the extension:
 ![AI Reply Preview](./assets/Screenshot%202025-07-26%20142836.png)
 
 🎯 How to Run the Project
+🧪 Testing It Locally
+Start Spring Boot backend
+
+bash
+Copy
+Edit
+cd backend
+./mvnw spring-boot:run
+Start React frontend
+
+bash
+Copy
+Edit
+cd frontend
+npm install
+npm run dev
+Load Chrome Extension
+
+Go to chrome://extensions
+
+Enable "Developer Mode"
+
+Click "Load unpacked"
+
+Select your /extension folder
+
+Open Gmail in Chrome
+
+Click on an email
+
+Click "Generate Reply" button added by extension
+
+AI reply appears in the Gmail reply box 🎉
+
+
