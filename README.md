@@ -112,21 +112,21 @@ Automatically adds a "Generate Reply" button inside Gmail UI
 
 
 <pre>
-                                                          User (Gmail / Web UI)
-                                                                   ↓
-                                                          Clicks "Generate Reply"
-                                                                   ↓
-                                               Frontend/Extension sends POST request to backend:
-                                                             /api/generate-reply
-                                                                    ↓
-                                                  Spring Boot Backend forms Gemini API prompt:
-                                                    "Reply to this email in a [tone] tone: ..."
-                                                                    ↓
-                                                           Gemini API generates reply
-                                                                    ↓
-                                                       Backend sends reply to Frontend/Extension
-                                                                    ↓
-                                                       Reply inserted in UI or Gmail textbox
+                                            User (Gmail / Web UI)
+                                                      ↓
+                                            Clicks "Generate Reply"
+                                                      ↓
+                                    Frontend/Extension sends POST request to backend:
+                                              /api/generate-reply
+                                                      ↓
+                                     Spring Boot Backend forms Gemini API prompt:
+                                     "Reply to this email in a [tone] tone: ..."
+                                                      ↓
+                                           Gemini API generates reply
+                                                      ↓
+                                     Backend sends reply to Frontend/Extension
+                                                      ↓
+                                             Reply inserted in UI or Gmail textbox
 </pre>
 
 
@@ -185,7 +185,7 @@ Here is a preview of the AI-generated email reply using the extension:
 
 Here is a preview of the AI-generated email reply in frontend:
 
-![AI Reply Preview](./assets/Screenshot%202025-07-26%20225353.png.png)
+![AI Reply Preview](./assets/Screenshot%202025-07-26%20225353.png)
 
 
 
