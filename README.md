@@ -159,19 +159,19 @@ Here is a preview of the AI-generated email reply using the extension:
 
 ## 📬 Test in Gmail
 
--> Open Gmail in Chrome
+- Open Gmail in Chrome
                     
-                        -> Click on any email
+- Click on any email
                     
-                        -> A new “Generate Reply” button will appear in the reply box
+- A new “Generate Reply” button will appear in the reply box
                     
-                        -> Click the button:
+- Click the button:
                     
-                        -> A request is sent to the backend
+- A request is sent to the backend
                     
-                        -> Gemini API generates a reply
+- Gemini API generates a reply
                     
-                        -> ✨ The reply is inserted automatically into the Gmail reply box
+- ✨ The reply is inserted automatically into the Gmail reply box
 
 
 
