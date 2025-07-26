@@ -111,25 +111,25 @@ Host backend locally or on cloud (Render, Railway, Vercel)
 
 #🌐 Data Flow Overview
 
-<p align="center">
+
 <pre>
-                                       User (Gmail / Web UI)
-                                                 ↓
-                                     Clicks "Generate Reply"
-                                                 ↓
-                            Frontend/Extension sends POST request to backend:
-                                        /api/generate-reply
-                                                 ↓
-                               Spring Boot Backend forms Gemini API prompt:
-                               "Reply to this email in a [tone] tone: ..."
-                                                 ↓
-                                     Gemini API generates reply
-                                                 ↓
-                              Backend sends reply to Frontend/Extension
-                                                 ↓
-                                Reply inserted in UI or Gmail textbox
+                                                          User (Gmail / Web UI)
+                                                                   ↓
+                                                          Clicks "Generate Reply"
+                                                                   ↓
+                                               Frontend/Extension sends POST request to backend:
+                                                             /api/generate-reply
+                                                                    ↓
+                                                  Spring Boot Backend forms Gemini API prompt:
+                                                    "Reply to this email in a [tone] tone: ..."
+                                                                    ↓
+                                                           Gemini API generates reply
+                                                                    ↓
+                                                       Backend sends reply to Frontend/Extension
+                                                                    ↓
+                                                       Reply inserted in UI or Gmail textbox
 </pre>
-</p>
+
 
 
 
