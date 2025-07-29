@@ -2,7 +2,7 @@
 
 # 🔥 Project Overview
 
-A full-stack project that generates intelligent email replies using Google's Gemini API. This includes:
+A full-stack project that generates intelligent email replies using Google's Gemini API. This includes->
 
 - 🚀 **Spring Boot backend** for API handling  
 - 🎨 **React frontend** with dark mode and responsive UI  
