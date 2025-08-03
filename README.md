@@ -126,7 +126,7 @@ Automatically adds a "Generate Reply" button inside Gmail UI
                                                       ↓
                                      Backend sends reply to Frontend/Extension
                                                       ↓
-                                             Reply inserted in UI or Gmail textbox
+                                        Reply inserted in UI or Gmail textbox
 </pre>
 
 
@@ -186,6 +186,7 @@ Here is a preview of the AI-generated email reply using the extension:
 Here is a preview of the AI-generated email reply in frontend:
 
 ![AI Reply Preview](./assets/Screenshot%202025-07-26%20225353.png)
+
 
 
 
